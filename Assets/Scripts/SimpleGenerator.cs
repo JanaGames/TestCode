@@ -34,7 +34,7 @@ public class SimpleGenerator : MonoBehaviour
         if (!CheckInputField()) return;
 
         buttonMixSymbols.interactable = true;
-        curentSymbols = GetSymbols(rows+columns);
+        curentSymbols = GetSymbols(rows*columns);
         ButtonPress();
     }
     public void SetMix() 
@@ -54,8 +54,6 @@ public class SimpleGenerator : MonoBehaviour
     }
     void SpawnSymbols(string[] symbols) 
     {
-        rows = int.Parse(textWidth.text);
-        columns = int.Parse(textHeigth.text);
         panelGrid.GetComponent<GridLayoutGroup>().cellSize = GetSizeSlot();
         int indexSymbol = 0;
         for (int i = 0; i < rows; i++) 
@@ -115,6 +113,11 @@ public class SimpleGenerator : MonoBehaviour
             textWidth.text = "Width";
             textHeigth.text = "Heigth";
             return false;
+        }
+        else 
+        {
+            rows = int.Parse(textWidth.text);
+            columns = int.Parse(textHeigth.text);
         }
         return true;
     }
