@@ -1,0 +1,93 @@
+eng
+
+Если Вам понравилось дополнение Aether Dragon - ссылка, то непременно полюбится и мод Dragon Mounts, который увеличит количество драконов в игре. Четыре новых дракона, три вида новой брони и оружия - все это появится сразу после установки дополнения.
+
+Драконы получили собственную броню, шкуру и меч. Исключением станет только призрачный, о котором пойдет речь в конце статьи. Чтобы приодеть дракона в броню, используйте долгое нажатие. Аналогичным образом используется седло, сундук и лошадиная броня на каждую лошадь.
+
+Драконы получили как враждебную, так и приручаемую версию. Различие простое - если дракон летает, то лучше к нему не подходить.
+
+Рецепт крафта меча.
+
+Первый дракон - Эфирный, с которым большинство уже знакомы. Моба можно встретить в горах. Крайне опасный противник, который выстреливает ледяными шарами.
+Здоровье: 300 единиц
+Тип атаки: ледяные шары
+Метод приручения: золотое яблоко
+
+Второй дракон - Огненный, соседствующий с эфирным драконом. Агрессивный моб, стреляющий огненными шарами.
+Здоровье: 275 единиц
+Тип атаки: огненные шары
+Метод приручения: огненный стержень
+
+Следующий дракон - Дракон Края, которого узнает каждый пользователь. Моб появляется только в измерении Края, но приручается только тот, что на земле, а не босс. В любом случае, для приручения понадобится яйцо дракона.
+Здоровье: 200 единиц
+Тип атаки: огненные шары
+Метод приручения: яйцо дракона
+
+И наконец - Призрачный. По-своему красивый и прикольный моб, который приручается при помощи костей.
+Здоровье: 300 единиц
+Тип атаки: взрывные снаряды
+Метод приручения: кости
+
+---
+
+port
+
+If you liked the Aether Dragon add-on - link, you will definitely like the Dragon Mounts mod, which will increase the number of dragons in the game. Four new dragons, three types of new armor and weapons - all this will appear immediately after installing the add-on.
+
+Dragons got their own armor, skin and sword. The only exception is the Phantom Dragon, that we will talk about at the end of the article. To dress the dragon in armor, use a long press. A saddle, trunk, and horse armor per horse are used in the same way.
+
+Dragons are given both a hostile and a tame version. The distinction is simple-if a dragon flies, it is best to stay away from it.
+
+Sword Crafting Recipe.
+
+The first dragon is the Ethereal dragon, which most are already familiar with. Mob can be found in the mountains. Extremely dangerous opponent that shoots ice balls.
+Health: 300
+Type of Attack: Globes of Ice
+Method of domestication: Golden Apple
+
+The second dragon is the Fire dragon, adjacent to the ethereal dragon. Aggressive mob that fires fireballs.
+Health: 275
+Type of Attack: Fireballs
+Method of domestication: Fireball
+
+The next dragon is the Dragon of the Edge, which every user will recognize. The Mob only appears in the Edge dimension, but only the one on the ground is tamed, not the boss. Either way, you'll need a dragon egg to tame it.
+Health: 200
+Type of Attack: Fireballs
+Method of domestication: Dragon Egg
+
+Lastly, the Phantasmal. A beautiful and fun-looking monster that can be tamed with dice.
+Health: 300
+Type of Attack: Explosive Shells
+Method of domestication: dice
+
+---
+
+id
+
+Jika Anda menikmati add-on Aether Dragon - link, Anda juga akan menyukai mod Dragon Mounts, yang akan meningkatkan jumlah naga dalam game. Empat naga baru, tiga jenis baju besi dan senjata baru, semuanya akan muncul setelah add-on dipasang.
+
+Para naga telah diberi baju besi, kulit dan pedang mereka sendiri. Satu-satunya pengecualian adalah hantu, yang akan dibahas di akhir artikel. Untuk mempersenjatai naga Anda, gunakan long press. Demikian pula gunakan pelana, dada dan baju besi kuda untuk setiap kuda.
+
+Naga diberikan versi yang bermusuhan dan versi jinak. Perbedaannya sederhana - jika seekor naga terbang, yang terbaik adalah menjauhinya.
+
+Resep Kerajinan Pedang.
+
+Naga pertama adalah naga Ethereal, yang sebagian besar sudah dikenal. Massa dapat ditemukan di pegunungan. Musuh yang sangat berbahaya yang menembakkan bola es.
+Kesehatan: 300
+Jenis serangan: bola api
+Metode domestikasi: Apel Emas
+
+Naga kedua adalah naga Api, berdekatan dengan naga halus. Massa agresif yang menembakkan bola api.
+Kesehatan: 275
+Jenis Serangan: Bola api
+Metode Penjinakan: Bola api
+
+Naga berikutnya adalah Dragon of the Edge, dapat dikenali oleh setiap pengguna. Mafia hanya muncul di dimensi Edge, tetapi hanya yang ada di tanah yang dijinakkan, bukan bosnya. Apa pun itu, Anda akan memerlukan telur naga untuk menjinakkannya.
+Kesehatan: 200
+Jenis serangan: bola api
+Metode domestikasi: Telur Naga
+
+Terakhir, Phantasmal. Monster yang tampak menyenangkan yang bisa dijinakkan dengan dadu.
+Kesehatan: 300
+Jenis Serangan: Kerang Peledak
+Metode domestikasi: Dadu
