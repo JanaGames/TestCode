@@ -36,8 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Language\FlagSelectLanguage.cs" />
+     <Compile Include="Assets\Language\LanguageReader.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIDownloadMode.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\UI\TradeSlot.cs" />
      <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButtonClosePanel.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -45,15 +48,18 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButton.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\UI\BasketButton.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButtonExitGame.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\IQueueDownload.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TestProjects\GeneratorOfNumbers\Scripts\UIMessagePanel.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\Player.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Language\TranslatedText.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\UI\BuyButton.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\Inventory.cs" />
@@ -67,14 +73,19 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButtonOpenPanel.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Language\TranslatedDropdownOption.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\DownloadManager.cs" />
      <Compile Include="Assets\TestProjects\GeneratorOfNumbers\Scripts\SimpleGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Language\LanguageManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\ScriptableItem.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\UI\UITradeWindow.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\AdsManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Language\LanguagePage.cs" />
      <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UILoadingWindow.cs" />
      <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButtonLoadMessage.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -88,27 +99,53 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Language\Message.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TestProjects\TradeSystem\Script\UI\SellButton.cs" />
-     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIButtonExitGame.cs" />
-     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\DownloadManager.cs" />
-     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\UI\UIDownloadMode.cs" />
-     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\IQueueDownload.cs" />
-     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\AdsManager.cs" />
-     <Compile Include="Assets\Language\LanguagePage.cs" />
-     <Compile Include="Assets\Language\FlagSelectLanguage.cs" />
-     <Compile Include="Assets\Language\Message.cs" />
-     <Compile Include="Assets\Language\LanguageReader.cs" />
-     <Compile Include="Assets\Language\TranslatedDropdownOption.cs" />
-     <Compile Include="Assets\Language\LanguageManager.cs" />
-     <Compile Include="Assets\Language\TranslatedText.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\PopupWindow.cs" />
+     <Compile Include="Assets\TestProjects\SetModeUI\Scripts\EditWindow.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\LeanTween\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Resources\Lang\RUS.xml" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\LeanTween\License.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TestProjects\SetModeUI\Resources\Modes\dragonmounts\example.txt" />
@@ -123,6 +160,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-6.0.0_manifest.txt" />
@@ -365,6 +403,15 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>E:\Program Files\2021.3.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
         <HintPath>E:\GitHub\SimpleGenerator\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -383,20 +430,11 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>E:\GitHub\SimpleGenerator\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\GitHub\SimpleGenerator\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Core">
-        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds">
-        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.dll</HintPath>
-    </Reference>
-    <Reference Include="GoogleMobileAds.Unity">
-        <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.Unity.dll</HintPath>
-    </Reference>
     <Reference Include="GoogleMobileAds.Common">
         <HintPath>E:\GitHub\SimpleGenerator\Assets\GoogleMobileAds\GoogleMobileAds.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>E:\GitHub\SimpleGenerator\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\Program Files\2021.3.2f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

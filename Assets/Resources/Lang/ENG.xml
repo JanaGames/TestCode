@@ -15,10 +15,45 @@
       <string name="DOWNLOAD_BUTTON">Download</string>
       <string name="POLITIC_BUTTON">Privacy policy</string>
       <string name="INSTRUCTION_BUTTON">Instruction</string>
+      <string name="SUPPORT_VERSIONS_BUTTON">Support versions</string>
       <string name="EXIT_BUTTON">Exit</string>
 
-      <string name="CANCEL_BUTTON">Return</string>
+      <string name="CANCEL_BUTTON">Back</string>
       <string name="CONFIRM_BUTTON">Confirm</string>
+
+      <string name="DESCRIPTION">If you liked the Aether Dragon add-on - link, you will definitely like the Dragon Mounts mod, which will increase the number of dragons in the game. Four new dragons, three types of new armor and weapons - all this will appear immediately after installing the add-on.
+
+Dragons got their own armor, skin and sword. The only exception is the Phantom Dragon, that we will talk about at the end of the article. To dress the dragon in armor, use a long press. A saddle, trunk, and horse armor per horse are used in the same way.
+
+Dragons are given both a hostile and a tame version. The distinction is simple-if a dragon flies, it is best to stay away from it.
+
+Sword Crafting Recipe.
+
+The first dragon is the Ethereal dragon, which most are already familiar with. Mob can be found in the mountains. Extremely dangerous opponent that shoots ice balls.
+Health: 300
+Type of Attack: Globes of Ice
+Method of domestication: Golden Apple
+
+The second dragon is the Fire dragon, adjacent to the ethereal dragon. Aggressive mob that fires fireballs.
+Health: 275
+Type of Attack: Fireballs
+Method of domestication: Fireball
+
+The next dragon is the Dragon of the Edge, which every user will recognize. The Mob only appears in the Edge dimension, but only the one on the ground is tamed, not the boss. Either way, you'll need a dragon egg to tame it.
+Health: 200
+Type of Attack: Fireballs
+Method of domestication: Dragon Egg
+
+Lastly, the Phantasmal. A beautiful and fun-looking monster that can be tamed with dice.
+Health: 300
+Type of Attack: Explosive Shells
+Method of domestication: dice</string>
+
+      <string name="SUPPORT_VERSIONS_LIST"></string>
+      <string name="INSTRUCTION">1. Go to the addon page, download and wait for the end of the load.
+2. Open the addon. Wait for the end of imports.
+3. After you see the phrase "Import of the world is successfully completed," the installation is over.
+4. Open the downloaded world and enjoy the game!</string>
 
       <string name="MESSAGE1_BUTTON">MESSAGE 1</string>
       <string name="MESSAGE2_BUTTON">MESSAGE 2</string>

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UILoadingWindow : MonoBehaviour
 {
-    public Image imageLoading;
+    public Slider slider;
 
     public static UILoadingWindow instance;
 
@@ -33,10 +33,10 @@ public class UILoadingWindow : MonoBehaviour
     {
         while(true) 
         {
-            yield return new WaitForSeconds(0.1f);
-            imageLoading.fillAmount -= 0.01f;
+            yield return new WaitForSeconds(0.05f);
+            slider.value += 0.01f;
 
-            if (imageLoading.fillAmount == 0) EndLoading();
+            if (slider.value == 1) EndLoading();
         }
     }
 

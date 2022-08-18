@@ -22,7 +22,8 @@ public class UIDownloadMode : MonoBehaviour
     }
 
     private void Update() {
-        if (!AdsManager.Instance.isPlay && !isLoading) StartCoroutine("DownloadFromResources");
+        //!!!!!!!!!!for activate a need URL!!!!!!
+        //if (!AdsManager.Instance.isPlay && !isLoading) StartCoroutine("DownloadFromURL");
     }
 
     void OnDisable() 
@@ -41,9 +42,9 @@ public class UIDownloadMode : MonoBehaviour
 
         byte[] data = db.bytes;
 
-        //System.IO.File.WriteAllBytes(filepath, data);
+        System.IO.File.WriteAllBytes(filepath, data);
 
-        //System.IO.Path.Combine(filepath, "example.txt");
+        System.IO.Path.Combine(filepath, "example.txt");
     }
 
     public IEnumerator DownloadFromURL()
