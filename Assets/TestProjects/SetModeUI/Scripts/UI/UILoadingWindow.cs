@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Threading.Tasks;
 
 public class UILoadingWindow : MonoBehaviour
 {
@@ -20,20 +21,15 @@ public class UILoadingWindow : MonoBehaviour
 
     private void Start() {
         instance = this;
-        StartCoroutine("LoadingProcess");
+        StartLoadingWindow();
     }
     //call between scenes
     //or start game
-    public void StartLoadingWindow() 
-    {
-        StartCoroutine("LoadingProcess");
-    }
-
-    IEnumerator LoadingProcess() 
+    public async void StartLoadingWindow() 
     {
         while(true) 
         {
-            yield return new WaitForSeconds(0.05f);
+            await Task.Delay(50);
             slider.value += 0.01f;
 
             if (slider.value == 1) EndLoading();
@@ -42,7 +38,6 @@ public class UILoadingWindow : MonoBehaviour
 
     public void EndLoading() 
     {
-        StopAllCoroutines();
         gameObject.SetActive(false);
     }
 }
